@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/ar"
+        android:layout_height="229dp">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="World of wallpaper !"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/teal_200"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="120dp"
+        android:text="Niushant Store"
+        >
+
+    </TextView>
+</LinearLayout>
